@@ -140,7 +140,7 @@ export default function ContactPage() {
 
               <div className="mt-8">
                 <Image
-                  src="/nextgen images/house party-rafiki.svg"
+                  src="/images/house party-rafiki.svg"
                   alt="Contact"
                   width={400}
                   height={400}

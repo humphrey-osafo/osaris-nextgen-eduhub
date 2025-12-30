@@ -173,7 +173,7 @@ export default function SchoolsPage() {
             </div>
             <div>
               <Image
-                src="/nextgen images/Product tour-pana.svg"
+                src="/images/Product tour-pana.svg"
                 alt="Pricing"
                 width={500}
                 height={500}
@@ -246,7 +246,7 @@ export default function SchoolsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <Image
-                src="/nextgen images/In progress-cuate.svg"
+                src="/images/In progress-cuate.svg"
                 alt="Contract"
                 width={500}
                 height={500}

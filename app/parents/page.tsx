@@ -187,7 +187,7 @@ export default function ParentsPage() {
             </div>
             <div>
               <Image
-                src="/nextgen images/Training at home-rafiki.svg"
+                src="/images/Training at home-rafiki.svg"
                 alt="Skill Development"
                 width={500}
                 height={500}
@@ -203,7 +203,7 @@ export default function ParentsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <Image
-                src="/nextgen images/Coaches-amico.svg"
+                src="/images/Coaches-amico.svg"
                 alt="Discipline"
                 width={500}
                 height={500}

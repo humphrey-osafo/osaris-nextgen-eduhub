@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import CTASection from '@/components/CTASection';
+import { AcademicCapIcon, BookOpenIcon, ShieldCheckIcon, CheckIcon, LightBulbIcon, UserGroupIcon, ChartBarIcon, ClockIcon } from '@heroicons/react/24/outline';
 
 export default function Home() {
   return (
@@ -40,7 +41,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <Image
-                src="/nextgen images/Digital transformation-bro.svg"
+                src="/images/Digital transformation-bro.svg"
                 alt="Students learning"
                 width={600}
                 height={600}
@@ -60,9 +61,11 @@ export default function Home() {
             essential life skills.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8 mt-12">
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="text-5xl mb-4">🎓</div>
+          <div className="grid md:grid-cols-3 gap-8 mt-12 [&>div]:hover:scale-105 [&>div]:transition-transform">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-gray-100 hover:border-electric-blue/20">
+              <div className="text-5xl mb-4 text-electric-blue">
+                <AcademicCapIcon className="w-12 h-12" />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-midnight-navy">Expert Instruction</h3>
               <p className="text-graphite-gray">
                 Professional trainers with proven expertise in their fields, dedicated to
@@ -70,8 +73,10 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="text-5xl mb-4">📚</div>
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-gray-100 hover:border-electric-blue/20">
+              <div className="text-5xl mb-4 text-nextgen-green">
+                <BookOpenIcon className="w-12 h-12" />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-midnight-navy">Structured Curriculum</h3>
               <p className="text-graphite-gray">
                 Age-appropriate programs with clear learning outcomes, progress tracking,
@@ -79,8 +84,10 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="text-5xl mb-4">🛡️</div>
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-gray-100 hover:border-electric-blue/20">
+              <div className="text-5xl mb-4 text-purple-500">
+                <ShieldCheckIcon className="w-12 h-12" />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-midnight-navy">Safe & Reliable</h3>
               <p className="text-graphite-gray">
                 Comprehensive child protection policies, qualified personnel, and consistent
@@ -103,7 +110,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="group bg-gradient-to-br from-electric-blue to-blue-600 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
               <Image
-                src="/nextgen images/Programmer-pana.svg"
+                src="/images/Programmer-pana.svg"
                 alt="STEM & Robotics"
                 width={200}
                 height={200}
@@ -118,7 +125,7 @@ export default function Home() {
 
             <div className="group bg-gradient-to-br from-nextgen-green to-green-600 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
               <Image
-                src="/nextgen images/Cricket-amico.svg"
+                src="/images/Cricket-amico.svg"
                 alt="Sports"
                 width={200}
                 height={200}
@@ -133,7 +140,7 @@ export default function Home() {
 
             <div className="group bg-gradient-to-br from-purple-500 to-pink-500 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
               <Image
-                src="/nextgen images/Making art-bro.svg"
+                src="/images/Making art-bro.svg"
                 alt="Arts"
                 width={200}
                 height={200}
@@ -148,7 +155,7 @@ export default function Home() {
 
             <div className="group bg-gradient-to-br from-orange-500 to-red-500 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
               <Image
-                src="/nextgen images/forming team leadership-amico.svg"
+                src="/images/forming team leadership-amico.svg"
                 alt="Leadership"
                 width={200}
                 height={200}
@@ -175,8 +182,8 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-electric-blue rounded-full flex items-center justify-center text-white text-xl font-bold">
-                ✓
+              <div className="flex-shrink-0 w-12 h-12 bg-electric-blue rounded-full flex items-center justify-center text-white text-xl">
+                <CheckIcon className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="text-lg font-bold mb-2 text-midnight-navy">Professional Trainers</h3>
@@ -185,8 +192,8 @@ export default function Home() {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-nextgen-green rounded-full flex items-center justify-center text-white text-xl font-bold">
-                ✓
+              <div className="flex-shrink-0 w-12 h-12 bg-nextgen-green rounded-full flex items-center justify-center text-white text-xl">
+                <CheckIcon className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="text-lg font-bold mb-2 text-midnight-navy">Per-Head Pricing</h3>
@@ -195,8 +202,8 @@ export default function Home() {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-electric-blue rounded-full flex items-center justify-center text-white text-xl font-bold">
-                ✓
+              <div className="flex-shrink-0 w-12 h-12 bg-electric-blue rounded-full flex items-center justify-center text-white text-xl">
+                <CheckIcon className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="text-lg font-bold mb-2 text-midnight-navy">Structured Curriculum</h3>
@@ -205,8 +212,8 @@ export default function Home() {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-nextgen-green rounded-full flex items-center justify-center text-white text-xl font-bold">
-                ✓
+              <div className="flex-shrink-0 w-12 h-12 bg-nextgen-green rounded-full flex items-center justify-center text-white text-xl">
+                <CheckIcon className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="text-lg font-bold mb-2 text-midnight-navy">Safety First</h3>
@@ -215,8 +222,8 @@ export default function Home() {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-electric-blue rounded-full flex items-center justify-center text-white text-xl font-bold">
-                ✓
+              <div className="flex-shrink-0 w-12 h-12 bg-electric-blue rounded-full flex items-center justify-center text-white text-xl">
+                <CheckIcon className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="text-lg font-bold mb-2 text-midnight-navy">Progress Tracking</h3>
@@ -225,8 +232,8 @@ export default function Home() {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-nextgen-green rounded-full flex items-center justify-center text-white text-xl font-bold">
-                ✓
+              <div className="flex-shrink-0 w-12 h-12 bg-nextgen-green rounded-full flex items-center justify-center text-white text-xl">
+                <CheckIcon className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="text-lg font-bold mb-2 text-midnight-navy">Flexible Scheduling</h3>
