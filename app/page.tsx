@@ -41,7 +41,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <Image
-                src="/images/Digital transformation-bro.svg"
+                src="/images/digital-transformation-bro.svg"
                 alt="Students learning"
                 width={600}
                 height={600}
@@ -110,7 +110,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="group bg-gradient-to-br from-electric-blue to-blue-600 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
               <Image
-                src="/images/Programmer-pana.svg"
+                src="/images/programmer-pana.svg"
                 alt="STEM & Robotics"
                 width={200}
                 height={200}
@@ -125,7 +125,7 @@ export default function Home() {
 
             <div className="group bg-gradient-to-br from-nextgen-green to-green-600 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
               <Image
-                src="/images/Cricket-amico.svg"
+                src="/images/cricket-amico.svg"
                 alt="Sports"
                 width={200}
                 height={200}
@@ -140,7 +140,7 @@ export default function Home() {
 
             <div className="group bg-gradient-to-br from-purple-500 to-pink-500 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
               <Image
-                src="/images/Making art-bro.svg"
+                src="/images/making-art-bro.svg"
                 alt="Arts"
                 width={200}
                 height={200}
@@ -155,7 +155,7 @@ export default function Home() {
 
             <div className="group bg-gradient-to-br from-orange-500 to-red-500 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
               <Image
-                src="/images/forming team leadership-amico.svg"
+                src="/images/forming-team-leadership-amico.svg"
                 alt="Leadership"
                 width={200}
                 height={200}

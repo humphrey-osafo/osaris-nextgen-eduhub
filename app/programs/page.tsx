@@ -62,7 +62,7 @@ export default function ProgramsPage() {
             </div>
             <div>
               <Image
-                src="/images/Programmer-pana.svg"
+                src="/images/programmer-pana.svg"
                 alt="STEM & Robotics"
                 width={500}
                 height={500}
@@ -78,7 +78,7 @@ export default function ProgramsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <Image
-                src="/images/Cricket-amico.svg"
+                src="/images/cricket-amico.svg"
                 alt="Sports"
                 width={500}
                 height={500}
@@ -164,7 +164,7 @@ export default function ProgramsPage() {
             </div>
             <div>
               <Image
-                src="/images/Making art-pana.svg"
+                src="/images/making-art-pana.svg"
                 alt="Arts"
                 width={500}
                 height={500}
@@ -180,7 +180,7 @@ export default function ProgramsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <Image
-                src="/images/forming team leadership-amico.svg"
+                src="/images/forming-team-leadership-amico.svg"
                 alt="Leadership"
                 width={500}
                 height={500}

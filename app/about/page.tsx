@@ -46,7 +46,7 @@ export default function AboutPage() {
             </div>
             <div>
               <Image
-                src="/images/Innovation-bro.svg"
+                src="/images/innovation-bro.svg"
                 alt="Innovation"
                 width={500}
                 height={500}
@@ -62,7 +62,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <Image
-                src="/images/Digital transformation-rafiki.svg"
+                src="/images/digital-transformation-rafiki.svg"
                 alt="Mission"
                 width={500}
                 height={500}
@@ -102,7 +102,7 @@ export default function AboutPage() {
             </div>
             <div>
               <Image
-                src="/images/Open source-cuate.svg"
+                src="/images/open-source-cuate.svg"
                 alt="Vision"
                 width={500}
                 height={500}
