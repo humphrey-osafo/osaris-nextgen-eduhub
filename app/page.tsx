@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import CTASection from '../components/CTASection';
-import ProgramCard from '../components/ProgramCard';
+import CTASection from '@/components/CTASection';
+import ProgramCard from '@/components/ProgramCard';
 import { AcademicCapIcon, BookOpenIcon, ShieldCheckIcon, CheckIcon, LightBulbIcon, UserGroupIcon, ChartBarIcon, ClockIcon } from '@heroicons/react/24/outline';
 
 export default function Home() {
