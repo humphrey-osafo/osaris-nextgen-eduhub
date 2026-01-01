@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import CTASection from '@/components/CTASection';
+import ProgramCard from '@/components/ProgramCard';
 import { AcademicCapIcon, BookOpenIcon, ShieldCheckIcon, CheckIcon, LightBulbIcon, UserGroupIcon, ChartBarIcon, ClockIcon } from '@heroicons/react/24/outline';
 
 export default function Home() {
@@ -108,65 +109,49 @@ export default function Home() {
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="group bg-gradient-to-br from-electric-blue to-blue-600 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
-              <Image
-                src="/images/programmer-pana.svg"
-                alt="STEM & Robotics"
-                width={200}
-                height={200}
-                className="w-full h-48 object-contain mb-4"
-              />
-              <h3 className="text-xl font-bold mb-2">STEM & Robotics</h3>
-              <p className="text-sm mb-4">Coding, robotics, digital skills, and computational thinking.</p>
-              <Link href="/programs#stem" className="text-neon-yellow font-semibold hover:underline">
-                Learn More →
-              </Link>
-            </div>
+            <ProgramCard
+              title="STEM & Robotics"
+              description="Coding, robotics, digital skills, and computational thinking."
+              icon={<AcademicCapIcon className="w-12 h-12" />}
+              href="/programs#stem"
+              gradientFrom="from-electric-blue"
+              gradientTo="to-blue-600"
+              animationSvg="/images/animations/stem-robotics-animation.svg"
+              staticImage="/images/programmer-pana.svg"
+            />
 
-            <div className="group bg-gradient-to-br from-nextgen-green to-green-600 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
-              <Image
-                src="/images/cricket-amico.svg"
-                alt="Sports"
-                width={200}
-                height={200}
-                className="w-full h-48 object-contain mb-4"
-              />
-              <h3 className="text-xl font-bold mb-2">Sports & Fitness</h3>
-              <p className="text-sm mb-4">Football, basketball, athletics, and physical development.</p>
-              <Link href="/programs#sports" className="text-neon-yellow font-semibold hover:underline">
-                Learn More →
-              </Link>
-            </div>
+            <ProgramCard
+              title="Sports & Fitness"
+              description="Football, basketball, athletics, and physical development."
+              icon={<AcademicCapIcon className="w-12 h-12" />}
+              href="/programs#sports"
+              gradientFrom="from-nextgen-green"
+              gradientTo="to-green-600"
+              animationSvg="/images/animations/sports-and-fitness.svg"
+              staticImage="/images/cricket-amico.svg"
+            />
 
-            <div className="group bg-gradient-to-br from-purple-500 to-pink-500 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
-              <Image
-                src="/images/making-art-bro.svg"
-                alt="Arts"
-                width={200}
-                height={200}
-                className="w-full h-48 object-contain mb-4"
-              />
-              <h3 className="text-xl font-bold mb-2">Arts & Creativity</h3>
-              <p className="text-sm mb-4">Music, dance, drama, visual arts, and craftwork.</p>
-              <Link href="/programs#arts" className="text-neon-yellow font-semibold hover:underline">
-                Learn More →
-              </Link>
-            </div>
+            <ProgramCard
+              title="Arts & Creativity"
+              description="Music, dance, drama, visual arts, and craftwork."
+              icon={<AcademicCapIcon className="w-12 h-12" />}
+              href="/programs#arts"
+              gradientFrom="from-purple-500"
+              gradientTo="to-pink-500"
+              animationSvg="/images/animations/arts-and-creativity-animation.svg"
+              staticImage="/images/making-art-bro.svg"
+            />
 
-            <div className="group bg-gradient-to-br from-orange-500 to-red-500 p-6 rounded-2xl text-white hover:scale-105 transition-transform">
-              <Image
-                src="/images/forming-team-leadership-amico.svg"
-                alt="Leadership"
-                width={200}
-                height={200}
-                className="w-full h-48 object-contain mb-4"
-              />
-              <h3 className="text-xl font-bold mb-2">Leadership & Life Skills</h3>
-              <p className="text-sm mb-4">Public speaking, debate, chess, and critical thinking.</p>
-              <Link href="/programs#leadership" className="text-neon-yellow font-semibold hover:underline">
-                Learn More →
-              </Link>
-            </div>
+            <ProgramCard
+              title="Leadership & Life Skills"
+              description="Public speaking, debate, chess, and critical thinking."
+              icon={<AcademicCapIcon className="w-12 h-12" />}
+              href="/programs#leadership"
+              gradientFrom="from-orange-500"
+              gradientTo="to-red-500"
+              animationSvg="/images/animations/leadership-animate.svg"
+              staticImage="/images/forming-team-leadership-amico.svg"
+            />
           </div>
         </div>
       </section>
